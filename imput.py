@@ -1,0 +1,5 @@
+k=input("Can you give input : ")
+print(k)
+name = input("Whats your name : ")
+print(f"Hello {name}!")
+print(len(name))
