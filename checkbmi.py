@@ -1,0 +1,10 @@
+import sys
+w = float(input("Enter your weight in kg : "))
+h = float(input("Enter your height in m : "))
+if w == 0 or h == 0 : print("Not Valid weight or height") 
+sys.exit()
+bmi = w/(h**2)
+if bmi < 18.5 : print(f"With weight {w} and Height {h} You are underweight with BMI of {bmi:.2f}")
+elif bmi < 25 : print(f"With weight {w} and Height {h} You are Normal with BMI of {bmi:.2f}")
+elif bmi <=25 : print(f"With weight {w} and Height {h} You are underweight with BMI of {bmi:.2f}")
+else : print("Obese")
